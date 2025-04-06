@@ -36,3 +36,9 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+// Recupero elementi dal DOM
+
+const newCol = document.querySelector('.team')
+
+// console.log(newCol)
