@@ -71,3 +71,5 @@ for(let i=0; i<teamMembers.length; i++){
   
 
 }
+
+newCol.innerHTML= newCards;
