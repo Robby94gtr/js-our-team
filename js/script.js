@@ -39,6 +39,10 @@ const teamMembers = [
 
 // Recupero elementi dal DOM
 
-const newCol = document.querySelector('.team')
+const newCol = document.querySelector('.team');
 
 // console.log(newCol)
+
+// Dichiaro variabile vuota che andrò a riempire con la stringa per l'HTML
+
+let newCards = '';
