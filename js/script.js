@@ -46,3 +46,13 @@ const newCol = document.querySelector('.team');
 // Dichiaro variabile vuota che andrò a riempire con la stringa per l'HTML
 
 let newCards = '';
+
+// Ciclo l'array di oggetti
+
+for(let i=0; i<teamMembers.length; i++){
+  // destrutturo gli elementi ciclati
+  const singleMember = teamMembers[i];
+  const {name, role, email, img} = singleMember;
+  
+
+}
