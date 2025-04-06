@@ -6,12 +6,15 @@
 
 body{
     font-family: 'Fredoka';
-    width: 1200px;
 }
 
 h1 {
-    padding: 3rem;
+    padding: 2rem;
     color: #E53170;
     font-size: 52px;
     font-weight: 700;
+}
+
+p{
+    margin: 0rem 3rem;
 }
