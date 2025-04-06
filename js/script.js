@@ -53,6 +53,21 @@ for(let i=0; i<teamMembers.length; i++){
   // destrutturo gli elementi ciclati
   const singleMember = teamMembers[i];
   const {name, role, email, img} = singleMember;
+
+   // creo la card
+
+   newCards += `<div class="col-xl-4 col-lg-6">
+   <div class="carta d-flex  text-white bg-black ">
+       <div class="immagine">
+           <img src=${img} alt="">
+       </div>
+       <div class="testo mx-3 py-3">
+           <h5 class="pit">${name}</h5>
+           <div class="mb-2">${role}</div>
+           <div class="text-info">${email}</div>
+       </div>
+   </div>
+</div>`
   
 
 }
